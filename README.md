@@ -41,23 +41,23 @@ Most are nothing special but perhaps they can demonstrate a technique you can us
 * **get-git.ps1** Retrieve files from an exposed .git directory
 * **get-cert.ps1** Get certificate information for a website.
 * **get-imapSecurity.ps1** Use OpenSSL to evaluate security of an IMAP server.
-* **host-header-poison.ps1 **Check a host to see if it's vulnerable to host header poisoning.
+* **host-header-poison.ps1** Check a host to see if it's vulnerable to host header poisoning.
 
 ### General
 
 * **get-ccns.ps1** Extracts CCN from a file verifies the LUN. If it is valid retrieves the associated bank information and returns a PS Object.
 * **get-ipgeo.ps1** Get IPGeo information for an IP address from ip-api.com and return in a PowerShell object.
-* **get-shodan.ps1 **Get Shodan information for a host returning information in a PowerShell object.
-* **Convert-archivetozip.ps1 **Convert all archive files in current directory to zips.
+* **get-shodan.ps1** Get Shodan information for a host returning information in a PowerShell object.
+* **Convert-archivetozip.ps1** Convert all archive files in current directory to zips.
 * **convert-b64ToPng.ps1** Convert a base64 encoded png to a png.
 * **convet-time.ps1** Convert from one timezone to another.
 * **disable-usbwriteprotect.ps1** Disable USB Write protect.
 * **enable-usbwriteprotect.ps1** Enable USB Write protect.
-* **get-ip.ps1 **Simple script to extract IP addresses from a text file.
+* **get-ip.ps1** Simple script to extract IP addresses from a text file.
 
 ## IT Scripts
 * **excel-to-csv.ps1** Convert file from Excel to CSV
-*** file-library.ps1** Library of file routines written in .net for speed (PS is so slow): compare, split, unique, count lines, sort ...
+* **file-library.ps1** Library of file routines written in .net for speed (PS is so slow): compare, split, unique, count lines, sort ...
 * **get-adhealth.ps1** Provides a report about the health of an Active Directory environment.
 * **get-AdminPasswordNotRequired.ps1** Check if the Local Admin account requires a password.
 * **get-ADuserNoPasswdReq.ps1** Scan all accounts in Active Directory to see if any have the No Password flag set.
@@ -78,6 +78,7 @@ Most are nothing special but perhaps they can demonstrate a technique you can us
 * **remote-EnableTS.ps1** Enable Terminal Services on a remote computer.
 * **sid2user.ps1** Retrieves the Username given a SID.
 * **expire-ADPassword.ps1** Expires a Users AD Password requiring a new password.
+* **get-fileEncoding.ps1** Determines the file encoding for a text file
 
 ## Remediation Scripts
 * **disable-anonymousshares.ps1** Disable Anonymous SAM accounts and shares.
