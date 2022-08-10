@@ -32,7 +32,7 @@ Most are nothing special but perhaps they can demonstrate a technique you can us
 * **get-dnsDebugLog.ps1** Retrieves DNS Debug Logs from a MS DNS server and converts to PS object.
 * **Get-DOLog.ps1** Get Delivery Optimization logs and convert to object.
 * **Get-ScheduledTask.ps1** Get XML scheduled task convert to object.
-* **get-nonlocalIP.ps1** Scans all the csv and txt files in the current directory and extract non-local IP addresses.
+* **get-nonlocalIP.ps1** Scans all the csv and txt files in the current directory and sub directories and extracts non-local IP addresses. Returns a unique list of file names and IPs.
 
 ### Penetration Testing
 
